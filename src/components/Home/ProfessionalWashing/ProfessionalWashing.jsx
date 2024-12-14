@@ -1,5 +1,5 @@
 import React from "react";
-import registerImage from "../../../assets/images/register.webp";
+import registerImage from "../../../assets/images/register.png";
 export default function ProfessionalWashing() {
   return (
     <section className="bg-black text-white  py-[5rem]">
@@ -27,7 +27,7 @@ export default function ProfessionalWashing() {
             </button>
           </div>
         </div>
-        <div className="w-1/2 max-lg:w-[90%] max-lg:order-1">
+        <div className="w-1/2 max-lg:w-[90%] max-lg:order-1 object-top">
           <img className="" src={registerImage} alt="Car wash" />
         </div>
       </div>
